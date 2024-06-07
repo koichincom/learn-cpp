@@ -1,0 +1,1 @@
+getline(std::cin, valuable); can read a whole line
