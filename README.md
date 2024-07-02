@@ -1,5 +1,5 @@
 # Personal Learning C++
-This repository contains my personal C++ learning journey through videos and websites. 
+This repository contains my personal C++ learning journey through free videos and websites. 
 
 # Resources I used
 - 1HourVideo: https://www.youtube.com/watch?v=ZzaPdXTrSb8
