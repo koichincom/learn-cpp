@@ -19,8 +19,6 @@ int main(){
 
     for (k = 1; k < n; k++){
         std::cout << ", " << m;
-        m + m
-
     }
 
     return 0;
