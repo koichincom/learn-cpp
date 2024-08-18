@@ -16,7 +16,7 @@
 *.dylib
 *.dll
 
-# Fortran module files
+# Fortran module files (optional, you may remove if not using Fortran)
 *.mod
 *.smod
 
@@ -30,3 +30,26 @@
 *.exe
 *.out
 *.app
+
+# VSCode settings
+.vscode/                 
+*.code-workspace         
+
+# Build directories
+/build/                  
+/bin/                    
+/obj/                    
+
+# Visual Studio Code extensions
+*.log                    
+.vscode/extensions.json  
+
+# CMake build files (if using CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# macOS specific (if using macOS)
+.DS_Store                
