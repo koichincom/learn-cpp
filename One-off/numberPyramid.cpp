@@ -9,20 +9,28 @@ int main(){
     
     int length {2 * n};
 
-    int num{1};
-    for (int i = 1; i <= n; i++)
+    int upNum{1};
+    int downNum{n};
+    for (int i = 1; i <= n; i++) // height
     {
-        for (int j = 1; j <= length; j++)
+        for (int j = 1; j <= length; j++) // length
         {
-            for (int num{1}; num < n; num++)
+            for (int upNum{1}; upNum < n; upNum++) 
             {
                 if (j == n - (i - 1))
                 {
-                    std::cout << num;
+                    std::cout << upNum;
                 }
-                else if (j == n + (i - 1))
+                else
                 {
-                    std::cout << num;
+                    std::cout << " ";
+                }
+            }
+            for (int downNum{1}; downNum < n; downNum--) 
+            {
+                if (j == n + (i - 1))
+                {
+                    std::cout << downNum;
                 }
                 else
                 {
