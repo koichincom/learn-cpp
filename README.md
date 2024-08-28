@@ -1,4 +1,4 @@
-# Personal Learning C++
+# pers-learning-cpp
 This repository contains my personal C++ learning journey through free videos and websites. 
 
 # Resources I used
