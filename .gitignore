@@ -32,8 +32,9 @@
 *.app
 
 # VSCode settings
-.vscode/                 
-*.code-workspace         
+*.vscode/                 
+*.code-workspace   
+*.dSYM
 
 # Build directories
 /build/                  
