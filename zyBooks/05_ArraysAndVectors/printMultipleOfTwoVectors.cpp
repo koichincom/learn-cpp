@@ -20,7 +20,15 @@ int main()
     }
 
     /* Your solution goes here  */
-    
+    for (i = 0; i < keysList.size(); ++i) {
+        if (keysList.at(i) > 100) {
+            cout << itemsList.at(i) << " ";
+        }
+    }
+
+    for (i = 0; keysList.at(i) > 100; ++i) {
+        cout << itemsList.at(i) << " ";
+    }
 
     cout << endl;
 
